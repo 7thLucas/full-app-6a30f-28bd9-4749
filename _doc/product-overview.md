@@ -1,0 +1,1 @@
+I want to make an app that can manage all of my communications
