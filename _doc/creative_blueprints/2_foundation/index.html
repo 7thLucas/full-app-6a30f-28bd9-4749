@@ -1,0 +1,69 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-narrative { width: 58%; }
+  .mode-landscape .sl-visual { width: 42%; }
+  .mode-portrait .sl-narrative { flex: 1; }
+  .mode-portrait .sl-visual { height: 32%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: narrative -->
+    <div class="sl-narrative flex flex-col p-12 gap-6">
+
+      <!-- Header -->
+      <div>
+        <span class="text-xs font-semibold tracking-widest text-indigo-600 uppercase">Why This Exists</span>
+        <h2 class="text-3xl font-bold text-slate-900 mt-2 leading-tight">The Problem, and the Fix.</h2>
+      </div>
+
+      <!-- Problem zone -->
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 flex-1 flex flex-col justify-start gap-3">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 bg-red-100 rounded-full flex items-center justify-center">
+            <div class="w-2.5 h-2.5 bg-red-500 rounded-full"></div>
+          </div>
+          <span class="text-xs font-bold text-red-600 uppercase tracking-widest">The Problem</span>
+        </div>
+        <p class="text-slate-700 leading-relaxed text-sm">
+          Communications are scattered across a growing number of platforms. Jumping between email, messaging apps, SMS, and social channels wastes hours every week — and important messages still fall through the cracks. The more channels you have, the worse the overload becomes.
+        </p>
+        <div class="flex gap-2 flex-wrap mt-1">
+          <span class="px-3 py-1 bg-red-50 text-red-600 text-xs font-medium rounded-full border border-red-200">Constant app-switching</span>
+          <span class="px-3 py-1 bg-red-50 text-red-600 text-xs font-medium rounded-full border border-red-200">Missed messages</span>
+          <span class="px-3 py-1 bg-red-50 text-red-600 text-xs font-medium rounded-full border border-red-200">Cognitive overload</span>
+        </div>
+      </div>
+
+      <!-- Solution zone -->
+      <div class="bg-indigo-600 rounded-2xl p-6 flex-1 flex flex-col justify-start gap-3">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 bg-indigo-400 rounded-full flex items-center justify-center">
+            <div class="w-2.5 h-2.5 bg-white rounded-full"></div>
+          </div>
+          <span class="text-xs font-bold text-indigo-200 uppercase tracking-widest">The Solution</span>
+        </div>
+        <p class="text-indigo-100 leading-relaxed text-sm">
+          A single unified hub that aggregates every communication channel you rely on — organised, searchable, and immediately actionable. One place to see it all, respond to what matters, and leave the noise behind.
+        </p>
+        <div class="flex gap-2 flex-wrap mt-1">
+          <span class="px-3 py-1 bg-indigo-500 text-indigo-100 text-xs font-medium rounded-full">Unified inbox</span>
+          <span class="px-3 py-1 bg-indigo-500 text-indigo-100 text-xs font-medium rounded-full">All channels connected</span>
+          <span class="px-3 py-1 bg-indigo-500 text-indigo-100 text-xs font-medium rounded-full">No more switching</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Right: visual -->
+    <div class="sl-visual relative overflow-hidden bg-slate-100">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=split%20concept%20art%20left%20side%20chaotic%20overwhelmed%20person%20many%20devices%20notification%20overload%20right%20side%20calm%20organized%20single%20clean%20interface%20minimal%20indigo%20blue%20contrast%20professional"
+        class="w-full h-full object-cover"
+        alt="Communication chaos versus organized hub"
+      />
+    </div>
+
+  </div>
+</section>
