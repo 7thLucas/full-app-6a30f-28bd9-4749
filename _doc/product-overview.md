@@ -15,8 +15,11 @@ The app owner — an individual managing a high volume of communications across 
 ## App Name
 *To be defined — pending onboarding questions.*
 
+## Day-One MVP Focus
+The single feature the app must nail first: **Unified Inbox** — one view for every channel, nothing missed, no switching required. All other features are secondary until this is working well.
+
 ## Core Scope
-- **Unified Inbox** — all channels surfaced in one organised stream
+- **Unified Inbox** ⭐ *(day-one priority)* — all channels surfaced in one organised stream
 - **Multi-Channel Support** — connect email, messaging apps, and other platforms
 - **Conversation Threading** — keep context intact with threaded conversation views
 - **Smart Organisation** — filter, tag, and prioritise messages so the important ones rise first
