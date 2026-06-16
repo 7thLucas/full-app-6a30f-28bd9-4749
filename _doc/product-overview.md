@@ -13,7 +13,7 @@ A unified hub that aggregates every communication channel the user relies on, or
 The app owner — an individual managing a high volume of communications across multiple channels who wants to reclaim time and reduce cognitive overload.
 
 ## App Name
-*To be defined — pending onboarding questions.*
+**Inboxer**
 
 ## Day-One MVP Focus
 The single feature the app must nail first: **Unified Inbox** — one view for every channel, nothing missed, no switching required. All other features are secondary until this is working well.
